@@ -1,12 +1,9 @@
-from ast import Try
-from distutils.log import info
-
-
 def information ():
     info = []
-    Last_name=input( 'Введите вашу фамилию:')
+    Last_name = input('Введите вашу фамилию: ')
     info.appened(Last_name)
-    first_name=input('Введите ваше имя')
+    first_name = input('Введите ваше имя')
+    info.append(first_name)
 
     phone_number = ''
 

@@ -1,2 +1,3 @@
-import controller as r
-r.Information()
+import controller as c      
+
+c.start_button()
